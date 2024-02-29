@@ -1,0 +1,165 @@
+.d2 {
+  position: absolute;
+  width: 350px;
+  height: 450px;
+  background-color: rgb(17, 214, 135);
+  left: 210px;
+  top: 20px;
+  transition: 1s;
+  border-radius: 6px;
+}
+.d3 {
+  top: 20px;
+  position: absolute;
+  width: 350px;
+  height: 450px;
+  background-color: rgb(12, 49, 232);
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  transition: 1s;
+  border-radius: 6px;
+}
+.d4 {
+  position: absolute;
+  width: 350px;
+  height: 450px;
+  background-color: rgb(204, 15, 251);
+  float: right;
+  right: 210px;
+  top: 20px;
+  transition: 0.4s;
+  border-radius: 6px;
+}
+.d2:hover {
+  width: 355px;
+  height: 455px;
+  transition: 0.5s;
+}
+.d3:hover {
+  width: 355px;
+  height: 455px;
+  transition: 0.5s;
+}
+.d4:hover {
+  width: 355px;
+  height: 455px;
+  transition: 0.5s;
+}
+.h1 {
+  color: aliceblue;
+  position: relative;
+  left: 20px;
+}
+
+.p1 {
+  color: aliceblue;
+  position: relative;
+  width: 350px;
+  left: 10px;
+}
+.bt1 {
+  position: relative;
+  float: right;
+  right: 10px;
+  border-radius: 50px;
+  padding: 7px;
+  border-color: rgb(255, 255, 255);
+  background: none;
+  color: aliceblue;
+}
+.bt1:hover {
+  color: rgb(0, 255, 21);
+}
+.bt2 {
+  position: relative;
+  float: right;
+  right: 10px;
+  border-radius: 50px;
+  padding: 7px;
+  border-color: rgb(255, 255, 255);
+  background: none;
+  color: aliceblue;
+}
+.bt2:hover {
+  color: rgb(0, 21, 255);
+}
+.bt3 {
+  position: relative;
+  float: right;
+  right: 10px;
+  border-radius: 50px;
+  padding: 7px;
+  border-color: rgb(255, 255, 255);
+  background: none;
+  color: aliceblue;
+}
+.bt3:hover {
+  color: rgb(255, 0, 238);
+}
+@media (max-width: 650px) {
+  .d2 {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(17, 214, 135);
+    left: 0px;
+    float: left;
+    top: 20px;
+    transition: 1s;
+  }
+  .d3 {
+    top: 330px;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(12, 49, 232);
+    transition: 1s;
+    float: left;
+    left: -287px;
+  }
+  .d4 {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(204, 15, 251);
+    float: left;
+    left: 0px;
+    top: 640px;
+    transition: 0.4s;
+  }
+  .d2:hover {
+    width: 255px;
+    height: 305px;
+    transition: 0.5s;
+  }
+  .d3:hover {
+    width: 255px;
+    height: 305px;
+    transition: 0.5s;
+  }
+  .d4:hover {
+    width: 255px;
+    height: 305px;
+    transition: 0.5s;
+  }
+  .h1 {
+    position: relative;
+    left: 10px;
+  }
+  .p1 {
+    position: relative;
+    width: 240px;
+    left: 10px;
+  }
+  .bt {
+    position: relative;
+    float: right;
+    right: 10px;
+    border-radius: 50px;
+    padding: 7px;
+    background: none;
+    border-color: black;
+    color: rgb(24, 16, 16);
+  }
+}
